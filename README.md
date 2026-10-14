@@ -13,8 +13,8 @@ http://localhost:3000/pedidos
 
 caso queira alterar e excluir o caminho deve ser:
 
-http://localhost:3000/clientes/(id do cliente)
+http://localhost:3000/clientes/ (id do cliente)
 
 ou
 
-http://localhost:3000/pedidos/(id do pedido)
+http://localhost:3000/pedidos/ (id do pedido)
