@@ -2,22 +2,12 @@
 
 o sistema possui produtos e clientes cada um possuindo diferentes informações
 
-essas são as rotas para alterações:
 
-
-
-# Post (cria um item)
-![Teste01](./imagens/chamar cliente.png)
-
-# Get (Mostra todos os itens)
-![Teste02](./imagens/chamar.png)
-
-# Get/id (mostra um item pelo id)
-![Teste03](./imagens/chamarID.png)
-
-# Put (Altera informações de um item)
-![Teste04](./imagens/editar.png)
-
-# Delete (Exclui um item)
-![Teste05](./imagens/excluir.png)
-
+para chamar e postar um cliente ou pedido é necessario colocar o caminho como
+http://localhost:3000/clientes
+ou
+http://localhost:3000/pedidos
+caso queira alterar e excluir o caminho deve ser
+http://localhost:3000/clientes/(id do cliente)
+ou
+http://localhost:3000/pedidos/(id do pedido)
